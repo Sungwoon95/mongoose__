@@ -1,0 +1,30 @@
+# POST http://localhost:4000/auth/register HTTP/1.1
+# Content-Type: application/json
+
+# {
+#   "email":"vo@vo.com",
+#   "username":"vo",
+#   "password":"vo"
+# }
+
+# POST http://localhost:4000/auth/login HTTP/1.1
+# Content-Type: application/json
+
+# {
+#   "email":"koko@koko.com",
+#   "password":"kokos"
+# }
+
+
+# get all album
+# GET http://localhost:4000/albums HTTP/1.1
+
+# post album
+POST http://localhost:4000/albums HTTP/1.1
+Content-Type: application/json
+
+{
+  "albumName":"OMsG",
+  "songName":["OMG","Ditto"],
+  "imgUrl": "https://i.ytimg.com/vi/fmguXe2n4bk/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARhKIFEoZTAP&rs=AOn4CLCVwOSqPN9q34fHOWnSzHchTxvGWQ"
+}
